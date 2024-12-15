@@ -9,11 +9,11 @@ frontend:
   phases:
     build:
       commands:
-        - npm run build
+        - amplify build --outputs-format ts
   artifacts:
     baseDirectory: dist
     files:
-      - '**/*'
+      - "**/*"
   cache:
     paths:
       - .npm/**/*
