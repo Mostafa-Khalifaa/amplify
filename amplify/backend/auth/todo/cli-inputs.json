@@ -1,0 +1,12 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "todo_identitypool_84b060a3",
+    "allowUnauthenticatedIdentities": false,
+    "authSelections": "identityPoolOnly",
+    "resourceName": "todo",
+    "sharedId": "84b060a3",
+    "serviceName": "Cognito",
+    "useDefault": "manual"
+  }
+}
